@@ -1,11 +1,10 @@
-// import { Phonebook } from './Phonebook/Phonebook';
 import React from "react";
 import { ContactForm } from '../components/ContactForm/ContactForm';
 import { ContactList } from '../components/ContactList/ContactList';
 import { Filter } from '../components/Filter/Filter';
 import { nanoid } from 'nanoid'
 import Notiflix from 'notiflix';
-import { Container, Title, ContactsTitle } from "./Phonebook/Phonebook.styled";
+import { Container, Title, ContactsTitle } from "./Арр.styled";
 
 export class Phonebook  extends React.Component { 
   state = {
